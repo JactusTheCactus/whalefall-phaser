@@ -1,0 +1,20 @@
+{
+  "name": "whalefall-phaser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tokilabs/pug3-cli": "^3.0.1",
+    "phaser": "^3.90.0",
+    "sass": "^1.97.2",
+    "serve": "^14.2.5",
+    "typescript": "^5.9.3"
+  }
+}
