@@ -5,7 +5,8 @@
 		"outDir": "./dist",
 		"module": "nodenext",
 		"target": "esnext",
-		"types": [],
+		"types": ["Phaser"],
+		"lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
 		"sourceMap": false,
 		"declaration": false,
 		"noUncheckedIndexedAccess": true,
@@ -22,6 +23,7 @@
 		"isolatedModules": true,
 		"noUncheckedSideEffectImports": true,
 		"moduleDetection": "force",
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"typeRoots": ["./node_modules/phaser/types"]
 	}
 }
